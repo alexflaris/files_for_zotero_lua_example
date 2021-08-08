@@ -1,0 +1,29 @@
+---
+title: "Experiment_Zotero_lua_filter"
+date: "8/7/2021"
+output:
+  bookdown::word_document2:
+    pandoc_args: ["--lua-filter=./zotero.lua"]
+zotero:
+  library: "My Library" #my references are inside a subcollection inside My Library
+  client: zotero
+bibliography: ./my_bibliography.bib
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown {-}
+
+Trying to produce a document with live citations as .docx.
+
+Here are some references: [@arezzoRoleStentsManagement2017; @bagnallSystematicReviewEnhanced2014; @baucomAssociationPerioperativeHypothermia2015; @bretagnolRectalCancerSurgery2010]
+
+And here is a single reference: [@calcagnoGlmultiPackageEasy2010]
+
+\newpage
+
+# References {-}
+
+<div id="refs"></div>

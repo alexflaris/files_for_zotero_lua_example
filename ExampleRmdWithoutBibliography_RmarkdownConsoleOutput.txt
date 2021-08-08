@@ -1,0 +1,23 @@
+processing file: ExampleRmdWithoutBibliography.Rmd
+  |.......................                                               |  33%
+  ordinary text without R code
+
+  |...............................................                       |  67%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |......................................................................| 100%
+  ordinary text without R code
+
+
+output file: ExampleRmdWithoutBibliography.knit.md
+
+pandoc-citeproc: reference arezzoRoleStentsManagement2017 not found
+pandoc-citeproc: reference bagnallSystematicReviewEnhanced2014 not found
+pandoc-citeproc: reference baucomAssociationPerioperativeHypothermia2015 not found
+pandoc-citeproc: reference bretagnolRectalCancerSurgery2010 not found
+pandoc-citeproc: reference calcagnoGlmultiPackageEasy2010 not found
+"C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS ExampleRmdWithoutBibliography.knit.md --to docx --from markdown+autolink_bare_uris+tex_math_single_backslash --output ExampleRmdWithoutBibliography.docx --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\bookdown\RMARKD~1\lua\CUSTOM~1.LUA" --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\RMARKD~1\RMARKD~1\lua\PAGEBR~1.LUA" --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\RMARKD~1\RMARKD~1\lua\NUMBER~1.LUA" --highlight-style tango --lua-filter=./zotero.lua 
+
+Output created: ExampleRmdWithoutBibliography.docx

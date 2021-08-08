@@ -1,0 +1,18 @@
+processing file: ExampleRmdWithBibliography.Rmd
+  |.......................                                               |  33%
+  ordinary text without R code
+
+  |...............................................                       |  67%
+label: setup (with options) 
+List of 1
+ $ include: logi FALSE
+
+  |......................................................................| 100%
+  ordinary text without R code
+
+
+output file: ExampleRmdWithBibliography.knit.md
+
+"C:/Program Files/RStudio/bin/pandoc/pandoc" +RTS -K512m -RTS ExampleRmdWithBibliography.knit.md --to docx --from markdown+autolink_bare_uris+tex_math_single_backslash --output ExampleRmdWithBibliography.docx --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\bookdown\RMARKD~1\lua\CUSTOM~1.LUA" --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\RMARKD~1\RMARKD~1\lua\PAGEBR~1.LUA" --lua-filter "C:\Users\XRHSTO~1\DOCUME~1\R\WIN-LI~1\4.0\RMARKD~1\RMARKD~1\lua\NUMBER~1.LUA" --highlight-style tango --lua-filter=./zotero.lua --filter "C:/Program Files/RStudio/bin/pandoc/pandoc-citeproc.exe" 
+
+Output created: ExampleRmdWithBibliography.docx
